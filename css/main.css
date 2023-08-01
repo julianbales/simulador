@@ -107,16 +107,6 @@
     background-color: rgb(86, 72, 214);
 }
 
-.principal-1:hover{
-    font-size: 33px;
-}
-.principal-2:hover{
-    font-size: 33px;
-}
-.principal-3:hover{
-    font-size: 33px;
-}
-
 /* APELLANIZ */
 
 .inlin{
@@ -439,5 +429,6 @@ font-size: 17px;
         grid-column: 3;
         grid-row: 5;
     }
-   
+
+
 }
