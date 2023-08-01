@@ -13,11 +13,12 @@
 
 .titulo{
     text-align: center;
+    color: #003f92;
     padding: 30px;
-    background: rgb(86, 72, 214);
+    background: rgb(0, 0, 0);
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 14%;
     margin-top: 50px;
     transform: translate(-50%, -50%);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.8);
@@ -341,4 +342,48 @@ font-size: 17px;
     font-size: 25px;
     box-shadow: #000000;
     box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.8); 
+}
+
+
+@media screen and (max-width: 900px){
+
+    .principal-1{
+        display: none;
+
+    }
+    
+    .principal-2{
+        display: none;
+
+    }
+
+    .principal-3{
+        display: none;
+    }
+
+    .logo-cumbre{
+        background-color: #000000;
+        left: 45%;
+        top: 326px;
+        width: 160px;
+        height: 80px;
+    }
+    .logo-spartan{
+        background-color: #000000;
+        width: 100px;
+        height: 140px;
+        left: 45%;
+        top: 417px;
+        
+    }
+    .logo-apellaniz{
+        left: 45%;
+        top: 125px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .titulo{
+        left: 15%;
+    }
 }
