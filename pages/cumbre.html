@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../scripts/code.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1><img class="img-cumbre" src="../img/Imgen2.png" alt=""></h1>
+    </header>
+
+    <main>
+        <section>
+            <div class="inlin-cumbre">
+                <label class="inlin-cumbre" for="num1">INGRESAR PRECIO DE LISTA</label>
+                <label class="inlin-cumbre" for="num1">INGRESAR ENTREGA AL CONTADO</label>
+                <label class="inlin-cumbre" for="num1">INGRESAR MEDIO DE PAGO</label>
+                
+                
+            </div>
+
+            <div class="inlin-cumbre">
+                <div>
+                    <input class="inlin-cumbre" type="number" id="a" step="0.01" placeholder="Ingresar número">
+                </div>
+                <div>
+                    <input class="inlin-cumbre" type="number" id="b" step="0.01" placeholder="Ingresar número">
+                </div>
+                <div>
+                    <form method="post">
+                        <select class="inlin-cumbre" id="tj-na">
+                            <option disabled selected>Elige opción</option>
+                            <option value="1">Tarjeta Naranja 5 cuotas</option>
+                            <option value="6">Tarjeta Naranja 10 cuotas</option>
+                            <option value="7">Tarjeta Naranja Plan Z</option>
+                            <option value="8">3 cuotas sin interés</option>
+                            <option value="2">6 cuotas sin interés</option>
+                            <option value="3">6 cuotas</option>
+                            <option value="4">12 cuotas</option>
+                            <option value="5">18 cuotas</option>
+                        </select>
+                      </form>                    
+                </div>        
+            </div>
+            <div  class="inlin-cumbre">
+                <button class="boton-cumbre" onclick="suma()">Calcular</button>
+                <p id="mensaje"></p>
+                <p id="a30"></p>
+            </div>
+        </section>
+           
+            <div>
+                <h2  class="in-titulo-cumbre" id="Ltitulo"></h2>               
+            </div>
+            <div class="in-cumbre">
+                <h3  class="in-cumbre" id="Lmonto"></h3>
+                <p class="in-cumbre" id="monto"></p>
+            </div>    
+            <div>
+                <h3 class="in-cumbre" id="Lentrega"></h3>
+                <p class="in-cumbre" id="entregata"><p class="inlin-cumbre" id="pentrega"></p></p>
+            </div>
+            <div>
+                <h3 class="in-cumbre" id="Lcuotas"></h3>
+                <p class="in-cumbre" id="cuotasta"></p>
+            </div>
+           
+        <section>
+
+        </section>
+    </main>
+</body>
+</html>
